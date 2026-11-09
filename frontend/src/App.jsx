@@ -4,6 +4,7 @@ import Menu from "./components/Menu/MenuSection";
 import Promotions from "./components/Promotions/PromotionsSection";
 import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 import LocalSection from "./components/Local/LocalSection";
+import Footer from "./components/Footer/Footer";
 
 export default function App() {
   return (
@@ -14,6 +15,7 @@ export default function App() {
       <Promotions />
       <WhyChooseUs />
       <LocalSection />
+      <Footer />
     </>
   );
 }
