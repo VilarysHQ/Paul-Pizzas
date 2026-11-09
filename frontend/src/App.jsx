@@ -2,6 +2,7 @@ import Navbar from "./components/Navbar/Navbar";
 import Hero from "./components/Hero/Hero";
 import Menu from "./components/Menu/MenuSection";
 import Promotions from "./components/Promotions/PromotionsSection";
+import WhyChooseUs from "./components/WhyChooseUs/WhyChooseUs";
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <Menu />
       <Promotions />
+      <WhyChooseUs />
     </>
   );
 }
